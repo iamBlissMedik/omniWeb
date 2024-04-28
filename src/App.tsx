@@ -1,10 +1,7 @@
-import NavBar from "./components/NavBar";
 const App = () => {
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
+      <header>header</header>
       <main>main</main>
       <footer>footer</footer>
     </>
