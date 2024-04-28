@@ -9,11 +9,13 @@ const NavBar = () => {
       <nav className="w-full max-w-screen-2xl flex justify-between items-center px-8 py-2 relative">
         {/* logo*/}
         <div className="w-full">
-          <img
-            src="/public/frame-5088@2x.png"
-            alt=""
-            className="w-[150px] lg:w-[250px]"
-          />
+          <a href="/">
+            <img
+              src="/public/frame-5088@2x.png"
+              alt=""
+              className="w-[150px] lg:w-[250px]"
+            />
+          </a>
         </div>
         {/* navlinks */}
         <div
@@ -22,13 +24,13 @@ const NavBar = () => {
           } top-14 inset-0 h-full w-full md:opacity-100  md:top-0 md:flex md:items-center`}
         >
           <div className="flex flex-col  items-end   md:flex-row gap-6 lg:gap-8 md:justify-center w-full text-black font-bold  text-sm lg:text-lg md:px-0 px-8 py-7">
-            <div className="hover:underline hidden md:block">
-              <a href="#">Home</a>
+            <div className="hover:underline hidden md:block cursor-pointer">
+              <a href="/">Home</a>
             </div>
-            <div className="hover:underline ">
+            <div className="hover:underline  cursor-pointer">
               <a href="#">Products</a>
             </div>
-            <div className="hover:underline ">
+            <div className="hover:underline  cursor-pointer">
               <a href="#">Contact Us</a>
             </div>
           </div>
