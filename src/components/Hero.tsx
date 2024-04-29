@@ -1,4 +1,4 @@
-import React from "react";
+import CustomButton from "./ui/CustomButton";
 
 const Hero = () => {
   return (
@@ -11,9 +11,9 @@ const Hero = () => {
         />
         <div className="absolute  inset-0 ">
           <div className="  h-full flex justify-center items-center px-8 md:px-12 lg:px-32 text-white">
-            <div className="flex  flex-col gap-8 md:gap-8 ">
+            <div className="flex  flex-col gap-4 md:gap-8 ">
               {/* entertaining */}
-              <div className="text-[40px] leading-[45px] lg:text-[60px] lg:leading-[75px] font-extrabold  text-center  ">
+              <div className="text-[35px] md:text-[40px] leading-[45px] lg:text-[60px] lg:leading-[75px] font-extrabold  text-center  ">
                 <span>Ensuring secure data accessibility</span>
                 <br />
                 <span>anywhere care is delivered</span>
@@ -30,8 +30,8 @@ const Hero = () => {
                 </p>
               </div>
               {/* button */}
-              <div>
-                <button>hey</button>
+              <div className="mx-auto">
+                <CustomButton>Contact Us</CustomButton>
               </div>
             </div>
           </div>
