@@ -1,11 +1,14 @@
 import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 const App = () => {
   return (
     <>
       <header>
         <NavBar />
       </header>
-      <main>main</main>
+      <main>
+        <Hero />
+      </main>
       <footer>footer</footer>
     </>
   );
