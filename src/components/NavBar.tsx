@@ -5,7 +5,7 @@ const NavBar = () => {
   const [showNavLinks, setshowNavLinks] = useState(false);
   const toggleNavbar = () => setshowNavLinks(!showNavLinks);
   return (
-    <div>
+    <div className="sticky z-50">
       <nav className="w-full max-w-screen-2xl flex justify-between items-center px-8 py-2 relative">
         {/* logo*/}
         <div className="w-full">
@@ -21,9 +21,9 @@ const NavBar = () => {
         <div
           className={`transition-opacity duration-300 ease-in-out ${
             showNavLinks ? "absolute opacity-100" : "hidden opacity-0"
-          } top-14 inset-0 h-full w-full md:opacity-100  md:top-0 md:flex md:items-center`}
+          } top-14 inset-0 h-full w-full md:opacity-100  md:top-0 md:flex md:items-center `}
         >
-          <div className="flex flex-col  items-end   md:flex-row gap-6 lg:gap-8 md:justify-center w-full text-black font-bold  text-sm lg:text-lg md:px-0 px-8 py-7">
+          <div className="flex flex-col  items-end   md:flex-row gap-6 lg:gap-8 md:justify-center w-full text-black font-bold  text-sm lg:text-lg md:px-0 px-8 py-7 bg-white">
             <div className="hover:underline hidden md:block cursor-pointer">
               <a href="/">Home</a>
             </div>
