@@ -25,14 +25,13 @@ const Products = () => {
       backgroundColor: "bg-yellow-600 bg-opacity-5",
     },
   ];
-
   return (
     <section className="px-8 md:px-12 lg:px-32 py-4" id="products">
       <div className="flex flex-col gap-4">
-        <h3 className="text-center lg:text-4xl md:text-2xl text-2xl font-extrabold">
+        <h3 className="md:text-center text-left  lg:text-4xl md:text-2xl text-2xl font-extrabold">
           Our Products
         </h3>
-        <p className="text-xl md:text-2xl font-light text-center">
+        <p className="text-xl md:text-2xl font-light md:text-center text-left ">
           We offer a comprehensive solution that enhances patient care, improves
           operational efficiency, and ensures secure, accessible medical data.
         </p>
