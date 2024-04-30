@@ -13,13 +13,13 @@ const Hero = () => {
           <div className="  h-full flex justify-center items-center px-8 md:px-12 lg:px-32 text-white">
             <div className="flex  flex-col gap-4 md:gap-8 ">
               {/* entertaining */}
-              <div className="text-[35px] md:text-[40px] leading-[45px] lg:text-[60px] lg:leading-[75px] font-extrabold  text-center  ">
+              <div className="text-[35px] md:text-[40px] leading-[45px] lg:text-[60px] lg:leading-[55px] font-bold  md:text-center text-left  ">
                 <span>Ensuring secure data accessibility</span>
                 <br />
                 <span>anywhere care is delivered</span>
               </div>
               {/* text */}
-              <div className="text-center text-lg md:text-3xl font-bold flex flex-col gap-4">
+              <div className="md:text-center text-left  text-lg md:text-3xl font-semibold flex flex-col md:gap-2 lg:leading-[40px]">
                 <p>
                   Digital solutions designed to revolutionize patient care and
                   foster operational excellence.
