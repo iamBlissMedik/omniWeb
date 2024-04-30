@@ -16,7 +16,7 @@ const Product = ({
   const toggleReadMore = () => setReadMore((prevState) => !prevState);
   return (
     <div
-      className={`p-7  bg-opacity-15 rounded-3xl flex flex-col gap-3 ${backgroundColor}`}
+      className={`px-5 py-7 md:p-7  bg-opacity-15 rounded-3xl flex flex-col gap-3 ${backgroundColor}`}
     >
       <div className="text-lg">
         <h4 className="font-bold mb-1">{title}</h4>
