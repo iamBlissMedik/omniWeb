@@ -4,6 +4,7 @@ import TransformingHealthCare from "./components/TransformingHealthCare";
 import Products from "./components/Products";
 import ImageCards from "./components/ImageCards";
 import OnePlatform from "./components/OnePlatform";
+import ReactMultiSelect from "./components/ReactMultiSelect";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
         <Products />
         <ImageCards />
         <OnePlatform />
+        <ReactMultiSelect />
       </main>
       <footer>footer</footer>
     </>
