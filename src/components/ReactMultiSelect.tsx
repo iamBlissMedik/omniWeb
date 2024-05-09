@@ -108,14 +108,6 @@ const ReactMultiSelect = () => {
           transitionDuration={1000}
           itemClass="carousel-item-padding-30-px"
         >
-          <div>
-            <img
-              className=" h-[409px] w-[327px] object-cover"
-              loading="lazy"
-              alt=""
-              src="/public/group-5@2x.png"
-            />
-          </div>
           {imgCarousel.map((img) => (
             <div>
               <img
