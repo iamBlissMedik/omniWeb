@@ -85,7 +85,7 @@ const ReactMultiSelect = () => {
           centerMode={false}
           className=""
           containerClass=""
-          customTransition="all 2s linear"
+          customTransition="all 5s linear"
           dotListClass=""
           draggable
           focusOnSelect={false}
