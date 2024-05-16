@@ -13,12 +13,13 @@ const ContactForm = () => {
   };
   return (
     <section
+      id="contactUs"
       className="flex justify-center px-8 md:px-12 lg:px-32 md:py-14 py-2 h-full"
       style={{
         backgroundImage: "url(/public/frame-5089.svg)",
-        // backgroundPosition: "center",
+        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "auto",
+        backgroundSize: "cover",
       }}
     >
       <form className=" grid grid-cols-1 gap-3 sm:gap-4">

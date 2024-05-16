@@ -30,7 +30,7 @@ const NavBar = () => {
             <a href="#products">Products</a>
           </div>
           <div className="hover:underline  cursor-pointer">
-            <a href="#">Contact Us</a>
+            <a href="#contactUs">Contact Us</a>
           </div>
         </div>
       </div>

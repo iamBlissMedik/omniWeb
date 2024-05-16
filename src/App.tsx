@@ -6,6 +6,7 @@ import ImageCards from "./components/ImageCards";
 import OnePlatform from "./components/OnePlatform";
 import ReactMultiSelect from "./components/ReactMultiSelect";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -21,7 +22,9 @@ const App = () => {
         <ReactMultiSelect />
         <ContactForm />
       </main>
-      <footer>footer</footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
