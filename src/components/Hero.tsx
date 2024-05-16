@@ -31,7 +31,9 @@ const Hero = () => {
               </div>
               {/* button */}
               <div className="mx-auto">
-                <CustomButton>Contact Us</CustomButton>
+                <CustomButton>
+                  <a href="#contactUs">Contact Us</a>
+                </CustomButton>
               </div>
             </div>
           </div>
