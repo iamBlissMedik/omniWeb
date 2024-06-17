@@ -3,12 +3,12 @@ import { imgLink } from "../types/footerLinks";
 const Footer = () => {
   const footerLinks: imgLink[] = [
     {
-      imgSrc: "/public/shape.svg",
+      imgSrc: "/shape.svg",
       alt: "facebook",
     },
 
     {
-      imgSrc: "/public/twitter.svg",
+      imgSrc: "/twitter.svg",
       alt: "x",
     },
   ];
@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="w-full md:w-2/5">
           <a href="/">
             <img
-              src="/public/frame-5088@2x.png"
+              src="/frame-5088@2x.png"
               alt=""
               className="w-[150px] lg:w-[250px]"
             />
