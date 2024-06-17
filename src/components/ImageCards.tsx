@@ -6,13 +6,13 @@ interface dataObj {
 }
 const data: dataObj[] = [
   {
-    imgSrc: "/public/medicalimage2@2x.png",
+    imgSrc: "/medicalimage2@2x.png",
     title: "Inspiring Trust,Delivering Excellence",
     content:
       "Built on a foundation of trust, Omnione strives for excellence in every aspect. Our solutions are designed to inspire confidence, creating a healthcare environment where trust is earned and outcomes are optimized.",
   },
   {
-    imgSrc: "/public/medicalimage1@2x.png",
+    imgSrc: "/medicalimage1@2x.png",
     title: " Lorem Ipsun,Preposition",
     content:
       "Cross hospitals and and patient care facilities. By integrating advanced digital technology with the unique needs of healthcare facilities, we offer a comprehensive solution that enhances patient care, improves operational efficiency, and ensures secure, accessible medical data.",

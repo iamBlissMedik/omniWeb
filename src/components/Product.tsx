@@ -35,7 +35,7 @@ const Product = ({
               <img
                 className=""
                 alt=""
-                src="/public/icbaselinearrowdropdown.svg"
+                src="/icbaselinearrowdropdown.svg"
               />
             </>
           )}

@@ -16,7 +16,7 @@ const ContactForm = () => {
       id="contactUs"
       className="flex justify-center px-8 md:px-12 lg:px-32 md:py-14 py-2 h-full"
       style={{
-        backgroundImage: "url(/public/frame-5089.svg)",
+        backgroundImage: "url(/frame-5089.svg)",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",

@@ -3,49 +3,49 @@ import "react-multi-carousel/lib/styles.css";
 const ReactMultiSelect = () => {
   const imgCarousel = [
     {
-      src: "/public/group-5@2x.png",
+      src: "/group-5@2x.png",
     },
     {
-      src: "/public/group-1@2x.png",
+      src: "/group-1@2x.png",
     },
     {
-      src: "/public/group-4@2x.png",
+      src: "/group-4@2x.png",
     },
     {
-      src: "/public/group-2@2x.png",
+      src: "/group-2@2x.png",
     },
     {
-      src: "/public/group-3@2x.png",
+      src: "/group-3@2x.png",
     },
     {
-      src: "/public/group-5@2x.png",
+      src: "/group-5@2x.png",
     },
     {
-      src: "/public/group-1@2x.png",
+      src: "/group-1@2x.png",
     },
     {
-      src: "/public/group-4@2x.png",
+      src: "/group-4@2x.png",
     },
     {
-      src: "/public/group-2@2x.png",
+      src: "/group-2@2x.png",
     },
     {
-      src: "/public/group-3@2x.png",
+      src: "/group-3@2x.png",
     },
     {
-      src: "/public/group-5@2x.png",
+      src: "/group-5@2x.png",
     },
     {
-      src: "/public/group-1@2x.png",
+      src: "/group-1@2x.png",
     },
     {
-      src: "/public/group-4@2x.png",
+      src: "/group-4@2x.png",
     },
     {
-      src: "/public/group-2@2x.png",
+      src: "/group-2@2x.png",
     },
     {
-      src: "/public/group-3@2x.png",
+      src: "/group-3@2x.png",
     },
   ];
   const responsive = {

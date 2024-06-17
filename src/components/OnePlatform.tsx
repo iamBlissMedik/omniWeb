@@ -4,19 +4,19 @@ import OnePlatformCard from "./OnePlatformCard";
 const OnePlatform = () => {
   const data: OnePlatformCardProps[] = [
     {
-      icon: "/public/carbonmeteralt.svg",
+      icon: "/carbonmeteralt.svg",
       iconAlt: "Elevating",
       title: "Elevating Healthcare Efficiency",
       text: "Omnione transforms healthcare facilities by optimizing workflows, enhancing communication, and delivering unparalleled efficiency, ultimately allowing healthcare professionals to focus on what matters most—patient well-being.",
     },
     {
-      icon: "/public/icoutlineconnectwithoutcontact.svg",
+      icon: "/icoutlineconnectwithoutcontact.svg",
       iconAlt: "Connections",
       title: "Bridging Gaps, Building Connections",
       text: "Our brand is a bridge between the gaps in healthcare, connecting providers, patients, and data seamlessly. Omnione facilitates a connected healthcare landscape, where collaboration thrives.",
     },
     {
-      icon: "/public/mdimedicalbag.svg",
+      icon: "/mdimedicalbag.svg",
       iconAlt: "Healthcare",
       title: "Future-Forward Healthcare with Omnione",
       text: "As a forward-thinking brand, Omnione embraces the future of healthcare, leveraging advanced technologies to drive innovation and shape the landscape of patient-centered, data-driven care.",

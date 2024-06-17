@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="max-h-full container  w-full  max-w-full">
       <div className="relative h-[600px] max-h-full">
         <img
-          src="/public/herobackground@2x.png"
+          src="/herobackground@2x.png"
           alt=""
           className="absolute inset-0 h-full w-full"
         />

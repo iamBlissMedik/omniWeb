@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className="w-full">
         <a href="/">
           <img
-            src="/public/frame-5088@2x.png"
+            src="/frame-5088@2x.png"
             alt=""
             className="w-[150px] lg:w-[250px]"
           />
